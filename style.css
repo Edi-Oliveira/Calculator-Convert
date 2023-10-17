@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+
+}
+
+body {
+    background-color: #8A51FC;
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+main {
+    width: 375px;
+    background: white;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input {
+    background: white;
+    border-radius: 4px;
+    height: 48px;
+    margin-bottom: 24px;
+    border: 1px solid #bbbbbb;
+    width: 100%;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000ad;
+    cursor: pointer;
+}
+
+option{
+font-weight: 700;
+
+}
+
+.input-values{
+padding-left: 0;
+text-align: center;
+
+
+}
+button{
+background: #772fd3; 
+border-radius: 5px;
+width: 100%;
+height: 48px;
+border: none;
+color: white;
+cursor: pointer;
+font-weight: 700;
+font-size: 18px;
+}
+
+botton:hover{
+    opacity: 0.8;
+}
+
+botton:active{
+    opacity: 0.6;
+
+}
+section{ 
+    border: 1px solid #772ff3 ; 
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.seta{
+    margin: 15px;
+    margin-top: 1px;
+}
+.brasil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.Moeda{
+    color: #555555;
+    font-size: 14px;
+}
+.moedaValor , .moedaValor-convert{
+
+
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.dolar-imagem {
+    width: 58px;
+}
